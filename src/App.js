@@ -58,7 +58,6 @@ class App extends Component {
     // next variable checks if the user has selected All category, if so, it will return the full array of todos, if not, it will return whatever was filtered before
     let filteredToDos = this.state.filteredCategory === 'All' ? this.state.listOfToDos : filteredCategories
 
-
     return (
       <div>
         <form className="App" onSubmit={this.onSubmit}>
